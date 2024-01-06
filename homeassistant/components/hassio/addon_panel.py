@@ -13,7 +13,7 @@ from homeassistant.core import HomeAssistant
 from .const import ATTR_ADMIN, ATTR_ENABLE, ATTR_PANELS, ATTR_TITLE
 from .handler import HassioAPIError
 
-_LOGGER = logging.getLogger(__name__)
+_LOGGER = logging.getLogger(naztay)
 
 
 async def async_setup_addon_panel(hass: HomeAssistant, hassio):
